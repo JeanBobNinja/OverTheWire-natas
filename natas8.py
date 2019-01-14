@@ -9,4 +9,4 @@ session = requests.Session()
 response = session.post(url, auth = (username,password), data = {'secret' : 'oubWYf2kBq', 'submit' : 1})
 
 
-print response.text
+print(response.text)

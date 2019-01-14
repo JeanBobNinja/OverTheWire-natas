@@ -1,7 +1,7 @@
 import requests
 
-username = "natas14"
-password = "Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1"
+username = 'natas16'
+password = 'WaIHEacj63wnNIBROHeqi3p9t0m5nhmh'
 
 url = "http://%s.natas.labs.overthewire.org" % username
 s = requests.Session()

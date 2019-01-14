@@ -11,4 +11,4 @@ referer = "http://natas5.natas.labs.overthewire.org/"
 response = session.get(url, auth = (username,password), headers = {'referer' : referer})
 
 
-print response.text
+print(response.text)

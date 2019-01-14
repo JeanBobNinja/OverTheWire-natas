@@ -11,4 +11,4 @@ cookies = dict(loggedin='1')
 response = session.post(url, auth = (username,password), cookies=cookies)
 
 
-print response.headers,response.text
+print(response.headers,response.text)

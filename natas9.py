@@ -9,4 +9,4 @@ session = requests.Session()
 response = session.get(url, auth = (username,password))
 
 
-print response.text
+print(response.text)

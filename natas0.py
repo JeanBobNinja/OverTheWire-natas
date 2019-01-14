@@ -8,4 +8,4 @@ session = requests.Session()
 response = session.post(url, auth = (username,password))
 
 
-print response.text
+print(response.text)

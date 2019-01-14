@@ -20,5 +20,5 @@ session = requests.Session()
 
 response = session.get(url, auth = (username,password), cookies = {"data":cookie})
 
-print session.cookies
-print response.text
+print(session.cookies)
+print(response.text)
